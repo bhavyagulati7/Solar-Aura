@@ -10,7 +10,7 @@ To run the SolarAura web application locally, follow these steps:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/anshuman0904/SolarAura.git
+git clone https://github.com/bhavyagulati7/SolarAura.git
 cd SolarAura
 ```
 
