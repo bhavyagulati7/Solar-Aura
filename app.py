@@ -10,8 +10,8 @@ app.config['MYSQL_DATABASE_USER'] = 'root'
 app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
 app.config['MYSQL_DATABASE_DB'] = 'solaraura'
 
-app.config['STRIPE_PUBLIC_KEY'] = 'pk_test_51NHjYsSFPzAEdpQfGp5nECydBZVoQfwtVCq3zF9I46UdzDgNSXfgXRL6s0hdxzFRaSacVroAeQXgqMAaEiIsCgdT00Fawb0Dh4'
-app.config['STRIPE_SECRET_KEY'] = 'sk_test_51NHjYsSFPzAEdpQf56ttCb9yLl5BK6ECZLFX9BcxUVKzVmNwvbNP3RPJ1XdOSYYRTQi5IXWMVoHxm5kUp9GbNJZl00RgXlvS7W'
+app.config['STRIPE_PUBLIC_KEY'] = 'pk_test_51QXQVe01UphHcAEg8hv22DvowBVnowSCeKsZByTIiyEJb5eIEI8n7rcPPURmBiFUVXQofUgzlN8bqDvOOrK7S5bB00Kz5erODR'
+app.config['STRIPE_SECRET_KEY'] = 'sk_test_51QXQVe01UphHcAEgEyY1vaUO4n8j5FSmhYSMRrjqMHI1kTnT7b21FAFlOvOTkPu1xspAYDpFgQfoZHiuvLtLUJou00HzGQKvuZ'
 
 stripe.api_key = app.config['STRIPE_SECRET_KEY']
 
